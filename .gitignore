@@ -1,0 +1,8 @@
+src/*.o
+src/*.so
+src/*.dll
+.Rhistory
+.DS_Store
+reproduction/local-library/
+.RData
+.Rproj.user/

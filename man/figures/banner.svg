@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-label="emaxProjection, confidence-region projection for integrated Emax responses; decorative illustration">
+<rect width="1200" height="330" rx="18" fill="#142C3B"/>
+<path d="M860 270c50-143 123-155 258-157v157Z" fill="#167D8D" opacity="0.8"/>
+<path d="M860 270c50-143 123-155 258-157" fill="none" stroke="#FAF8F3" stroke-width="5"/>
+<path d="M837 270V85h14m286 185V85h-14" fill="none" stroke="#D8B15B" stroke-width="4"/>
+<text x="54" y="96" fill="#D8B15B" font-family="sans-serif" font-size="18" letter-spacing="3">STATISTICAL RESEARCH SOFTWARE</text>
+<text x="50" y="174" fill="#FAF8F3" font-family="sans-serif" font-size="62" font-weight="bold">emaxProjection</text>
+<text x="54" y="223" fill="#D8E8EA" font-family="sans-serif" font-size="23">Integrated response. Boundary-aware inference.</text>
+<text x="54" y="271" fill="#D8E8EA" font-family="sans-serif" font-size="17">R + RcppArmadillo · Local development version 0.1.0</text>
+</svg>

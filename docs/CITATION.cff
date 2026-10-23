@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite this software and its accompanying unpublished manuscript."
+type: software
+title: "emaxProjection: Confidence-Region Projection for Integrated Emax Responses"
+version: 0.1.0
+repository-code: "https://github.com/byuzbasi/emaxProjection"
+url: "https://byuzbasi.github.io/emaxProjection/"
+authors:
+  - family-names: "Yüzbaşı"
+    given-names: "Bahadır"
+    affiliation: "İnönü University; Fırat University"
+    email: "bahadir.yuzbasi@inonu.edu.tr"
+preferred-citation:
+  type: unpublished
+  title: "Confidence-region projection for integrated Emax responses: boundary behavior and finite-sample inference"
+  authors:
+    - family-names: "Yüzbaşı"
+      given-names: "Bahadır"
+  year: 2026
+  notes: "Unpublished manuscript; no journal acceptance or DOI claimed."

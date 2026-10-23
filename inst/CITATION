@@ -1,0 +1,10 @@
+citEntry(
+  entry = "Manual",
+  title = "emaxProjection: Confidence-Region Projection for Integrated Emax Responses",
+  author = person("Bahadır", "Yüzbaşı"),
+  year = "2026",
+  url = "https://github.com/byuzbasi/emaxProjection",
+  note = "Version 0.1.0; accompanying manuscript unpublished",
+  textVersion = paste("Yüzbaşı B (2026). emaxProjection: Confidence-Region",
+    "Projection for Integrated Emax Responses. Version 0.1.0.")
+)

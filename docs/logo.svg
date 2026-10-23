@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="232" viewBox="0 0 200 232" role="img" aria-label="emaxProjection logo: an integrated curve within an interval">
+<path d="M100 4 196 59v114l-96 55-96-55V59Z" fill="#142C3B"/>
+<path d="M34 160V90h10m122 70V90h-10" fill="none" stroke="#D8B15B" stroke-width="5" stroke-linecap="round"/>
+<path d="M48 157c19-49 44-60 104-60v60Z" fill="#167D8D"/>
+<path d="M48 157c19-49 44-60 104-60" fill="none" stroke="#FAF8F3" stroke-width="5"/>
+<text x="100" y="195" text-anchor="middle" fill="#FAF8F3" font-family="sans-serif" font-size="22" font-weight="bold">Emax</text>
+</svg>

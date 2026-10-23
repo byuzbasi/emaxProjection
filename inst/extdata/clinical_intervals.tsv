@@ -1,0 +1,7 @@
+"method"	"label"	"status"	"estimate"	"qhat"	"lower"	"upper"	"width"	"calibration"
+"contrast_projection_v1"	"Contrast projection"	"nonempty"	0.292214498189774	0.916834729294854	0.00950951521244644	0.624582440299862	0.615072925087415	"Exact centered F-region; finite-budget outer bracket"
+"full_projection"	"Mean projection"	"nonempty"	0.292214498189774	0.916834729294854	0	0.650056276319863	0.650056276319863	"Exact F-region projection; finite-budget outer bracket"
+"analytic_outer"	"Analytic outer"	"analytic_outer_interval"	0.292214498189774	0.916834729294854	0	0.773220421348094	0.773220421348094	"Analytic relaxation of the same exact F region"
+"endpoint_t"	"Endpoint-t"	"ok"	0.292214498189774	0.916834729294854	0.0489100905635672	0.597864481441648	0.548954390878081	"Endpoint contrast envelope under the Gaussian model"
+"profile_lr"	"Profile LR"	"ok"	0.292214498345493	0.916834729939422	0.104479151323924	0.506510084893525	0.402030933569601	"Approximate likelihood-ratio calibration"
+"wald_delta"	"Wald"	"ok"	0.292214498345493	0.916834729939422	0.0987360940262641	0.485692902664721	0.386956808638457	"Local normal approximation"

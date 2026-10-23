@@ -1,0 +1,11 @@
+^_pkgdown\.yml$
+^docs$
+^README\.md$
+^CITATION\.cff$
+^CONTRIBUTING\.md$
+^VALIDATION\.md$
+^\.github$
+^\.gitignore$
+^\.DS_Store$
+^pkgdown$
+^reproduction$

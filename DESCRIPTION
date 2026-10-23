@@ -1,0 +1,25 @@
+Package: emaxProjection
+Type: Package
+Title: Confidence-Region Projection for Integrated Emax Responses
+Version: 0.1.0
+Authors@R: person("Bahadır", "Yüzbaşı", email = "bahadir.yuzbasi@inonu.edu.tr",
+    role = c("aut", "cre"))
+Description: Computes confidence-region projections for integrated responses
+    in a closed nonnegative Emax model with an unrestricted baseline. Supports
+    centered contrast and full mean-region calibration for independent Gaussian
+    errors with a common unknown variance and fixed replicated dose levels.
+    An RcppArmadillo numerical core returns outer intervals, feasible witnesses,
+    endpoint gaps, and explicit feasibility and termination diagnostics.
+    Floating-point enclosures are not directed-rounding certificates.
+License: file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.3.0)
+Imports: Rcpp, stats, graphics
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: testthat (>= 3.0.0), knitr, rmarkdown, pkgdown
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+RoxygenNote: 7.3.3
+NeedsCompilation: yes
+URL: https://byuzbasi.github.io/emaxProjection/, https://github.com/byuzbasi/emaxProjection
+BugReports: https://github.com/byuzbasi/emaxProjection/issues

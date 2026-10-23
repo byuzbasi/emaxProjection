@@ -1,0 +1,15 @@
+/* Local typography and small-screen presentation. */
+main img.logo { display: none; }
+.brand-banner { display: block; margin-bottom: 1.5rem; }
+.brand-banner img { display: block; max-width: 100%; height: auto; }
+pre { border-left: 3px solid #167D8D; }
+h1, h2, h3 { letter-spacing: -0.02em; }
+main p, main li { line-height: 1.65; }
+@media (max-width: 600px) {
+  .brand-banner img { width: 112px; margin: 1rem auto; }
+  h1 { font-size: 2rem; overflow-wrap: anywhere; }
+  table { font-size: 0.85rem; }
+  pre { font-size: 0.8rem; }
+}
+
+pre, code, kbd, samp { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace !important; }

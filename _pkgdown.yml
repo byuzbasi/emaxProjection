@@ -1,0 +1,46 @@
+url: https://byuzbasi.github.io/emaxProjection/
+template:
+  bootstrap: 5
+  bslib:
+    base_font: "system-ui"
+    heading_font: "system-ui"
+    code_font: "ui-monospace"
+    primary: "#167D8D"
+    link-color: "#126575"
+    bg: "#FAF8F3"
+    fg: "#142C3B"
+    border-radius: "0.4rem"
+navbar:
+  structure:
+    left: [intro, reference, articles, news]
+    right: [search, github]
+  components:
+    github:
+      icon: fab fa-github
+      href: https://github.com/byuzbasi/emaxProjection
+      aria-label: Source code on GitHub
+    intro:
+      text: Get started
+      href: articles/getting-started.html
+home:
+  title: Integrated Emax inference
+  description: Confidence-region projection with boundary and numerical diagnostics
+  sidebar:
+    html: pkgdown/sidebar.html
+reference:
+  - title: Model and target
+    desc: The closed Emax shape and normalized integrated excess response.
+    contents: [emax_shape, emax_shape_derivatives]
+  - title: Confidence regions
+    desc: Exact Gaussian F calibration for fixed replicated doses.
+    contents: [emax_region, emax_region_from_summary]
+  - title: Projection and diagnostics
+    desc: Analytic envelopes, fixed-shape slices, and adaptive endpoint enclosures.
+    contents: [emax_project, emax_fixed_shape, emax_outer_interval, print.emax_projection, plot.emax_projection]
+articles:
+  - title: Learn and reproduce
+    navbar: ~
+    contents: [getting-started, methods, gallery, data-dictionary, reproduction]
+
+news:
+  cran_dates: false
